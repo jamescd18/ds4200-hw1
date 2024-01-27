@@ -3,30 +3,55 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
+    <title>Pile o' Dogs</title>
   </head>
   <body>
-    <h1>James' Pile o' Dogs</h1>
-    <img src="images/puppies1.jpg" alt="Two puppies booping snouts." />
-    <p>
-      James Chang-Davidson is a computer scientist and technology leader. Originally from
-      California, James loves going on long wandering walks and dog watching in the park. He is
-      currently based in Boston and capitalizes on every warm day available to go dog watching on
-      the esplanade. When it gets cold, James likes making sushi and dreaming of the day when he
-      will be able to get a dog of his own.
-    </p>
+    <h1 style="display: flex; flex-direction: row; justify-content: center">James' Pile o' Dogs</h1>
+    <div style="display: flex; flex-direction: row">
+      <img
+        src="images/puppies1.jpg"
+        alt="Two puppies booping snouts."
+        style="width: 500px; height: fit-content"
+      />
+      <div style="display: flex; flex-direction: column; justify-content: center">
+        <img
+          src="images/james.jpg"
+          alt="James Chang-Davidson"
+          style="max-width: 250px; height: auto; margin-left: auto; margin-right: auto"
+        />
+        <p style="margin: 4em">
+          James Chang-Davidson is a computer scientist and technology leader. Originally from
+          California, James loves going on long wandering walks and dog watching in the park. He is
+          currently based in Boston and capitalizes on every warm day available to go dog watching
+          on the esplanade. When it gets cold, James likes making sushi and dreaming of the day when
+          he will be able to get a
+          <a href="https://random.dog" target="_blank" rel="noreferrer">dog</a> of his own.
+        </p>
+      </div>
+    </div>
 
-    <img src="images/puppy1.jpg" alt="A puppy looking up to say hi." />
-    <img src="images/puppy2.jpg" alt="A puppy curled up sleeping." />
-
-    <h2>Why Dogs Are Amazing</h2>
-    <ol>
-      <li>Soft</li>
-      <li>Cute</li>
-      <li>Fluffy</li>
-      <li>Happy</li>
-      <li>Playful</li>
-      <li>Snuggly</li>
-    </ol>
+    <div style="display: flex; flex-direction: row; justify-content: center">
+      <div style="margin-right: 4em">
+        <h2>Why Dogs Are Amazing</h2>
+        <ol>
+          <li>Soft</li>
+          <li>Cute</li>
+          <li>Fluffy</li>
+          <li>Happy</li>
+          <li>Playful</li>
+          <li>Snuggly</li>
+        </ol>
+      </div>
+      <img
+        src="images/puppy1.jpg"
+        alt="A puppy looking up to say hi."
+        style="width: 250px; height: auto; margin-right: 4em"
+      />
+      <img
+        src="images/puppy2.jpg"
+        alt="A puppy curled up sleeping."
+        style="width: 500px; height: auto"
+      />
+    </div>
   </body>
 </html>

@@ -9,6 +9,23 @@ myImage.onclick = () => {
   }
 }
 
+const square = document.querySelector('#sq-puppy')
+
+square.onclick = () => {
+  const mySrc = square.getAttribute('src')
+  if (mySrc === 'images/puppy1.jpg') {
+    square.setAttribute('src', 'images/rose.jpg')
+  } else {
+    square.setAttribute('src', 'images/puppy1.jpg')
+  }
+}
+
+const sleepy = document.querySelector('#sleepy-puppy')
+
+sleepy.onclick = () => {
+  alert('Hey! This puppy is sleeping! Please do not disturb!')
+}
+
 let myButton = document.querySelector('button')
 let myHeading = document.querySelector('h1')
 
